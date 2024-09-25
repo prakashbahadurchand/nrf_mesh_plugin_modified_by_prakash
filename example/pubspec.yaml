@@ -12,21 +12,22 @@ dependencies:
   flutter:
     sdk: flutter
 
-  file_picker: ^5.2.4
-  flutter_reactive_ble: ^5.0.2
-  permission_handler: ^10.2.0
-  device_info_plus: ^8.0.0
+  file_picker: ^8.0.5
+  flutter_reactive_ble: ^5.3.1
+  permission_handler: ^11.3.1
+  device_info_plus: ^10.1.2
 
   nordic_nrf_mesh:
     path: ../
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_driver:
-    sdk: flutter
-  test: any
+#  flutter_test:
+#    sdk: flutter
+#  flutter_driver:
+#    sdk: flutter
+#  test: any
   flutter_lints: ^2.0.1
 
 flutter:
   uses-material-design: true
+
